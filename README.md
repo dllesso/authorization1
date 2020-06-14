@@ -1,2 +1,2 @@
 # authorization1
-This is an authorization system using a phone which is located in the database. The generated password is valid for a few minutes
+This authorization system uses a phone number which is located in the database. The generated password is valid for a few minutes.

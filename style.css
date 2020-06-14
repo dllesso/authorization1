@@ -1,0 +1,162 @@
+﻿body
+{
+background-color: #194084;
+background-repeat:no-repeat;
+ font-size: 200%;
+}
+
+div{
+    background: white;
+    position: relative;
+    width: 25%;
+    height: 90%;
+    right: 0px;/*смещает объект вправо*/
+}
+div.red{
+    background: white;
+    position: relative;
+    width: 25%;
+    height: 10%;
+    right: 0px;/*смещает объект вправо*/
+	color: red;
+}
+div.main{
+    background:  yellow;
+    position: relative;
+    width: 100%x;
+    height: 400px;
+    right: 0px;/*смещает объект вправо*/
+}
+div.tab{
+    background:  yellow;
+    position: relative;
+    width: 100%x;
+    height: 50px;
+    right: 0px;/*смещает объект вправо*/
+}
+div.block
+{
+background: yellow;
+border:0px ridge orange;
+margin-left:2%;
+margin-right:5%;
+width:210px;
+height:399px;
+font-size: 5px;
+color: orange;
+float: left;
+}
+div.block0
+{
+background: yellow;
+border:0px ridge orange;
+margin-left:2%;
+margin-right:5%;
+width:300px;
+height:399px;
+font-size: 5px;
+color: orange;
+float: left;
+}
+div.block1
+{
+background: yellow;
+border:0px ridge orange;
+margin-left:2%;
+margin-right:5%;
+width:210px;
+height:120px;
+font-size: 5px;
+color: orange;
+float: right;
+}
+div.spis
+{
+background-color:no-color;
+line-height:1.3em;
+font-size: 1.5em;
+color:#000080;
+border:8px ridge #AFEEEE;
+margin-left:10%;
+margin-right:10%;
+padding: 5px;
+padding-left: 20px;
+padding-right: 20px;
+}
+table
+{
+	right: 0px;/*смещает объект вправо*/
+}
+p.green
+{
+font-size: 40px;	
+color: #006400;
+}
+p.white
+{
+font-size: 40px;	
+color: white;
+}
+p.red
+{
+font-size: 40px;	
+color: red;
+}
+p.smoll
+{
+	font-size: 20px;
+}
+
+p.smoll1
+{
+	font-size: 20px;
+        color: #194084;
+}
+form action
+{
+        color: #194084;
+}
+em
+{
+	color: blue;
+}
+button
+{
+        background: #194084;
+	width: 130px;
+        height: 30px;
+	color: white;
+        font-size: 15pt;
+	
+	
+}
+submit
+{
+	width: 120px;
+        height: 50px;
+	
+	color: green;
+	border-radius: 40px
+	
+}
+
+
+
+.textovoepole {
+line-height:1.3em;
+font-size: 1.5em;
+margin-left:10%;
+margin-right:10%;
+padding: 5px;
+padding-left: 20px;
+padding-right: 20px;
+}
+	.foc {
+	width: 150px; 
+	cursor:pointer; 
+	display:inline;
+	}
+	.foc:focus {
+	width: auto; 
+	z-index: 100;
+	}
